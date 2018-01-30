@@ -4,3 +4,28 @@
 @import common
 @import layouts
 @import main
+
+canvas
+  display: block
+
+.one
+  //background-color: green
+
+.two
+  clip: rect(0,0, 0, 0)
+  //background-color: pink
+
+.one, .two
+  position: absolute
+  width: 100vw
+  height: 100vh
+  left: 0
+  top: 0
+  text-align: center
+  h1
+    font-size: 120px
+    position: absolute
+    left: 50%
+    color: #fff
+    top: 50%
+    transform: translate(-50%, -50%)

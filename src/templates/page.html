@@ -5,23 +5,12 @@ title: Index page
 
 {% block content %}
 	
-	{# variable example #}
-	<h1>{{title}}</h1>
+	<div class="one">
+		<h1>oneoneone<br/>one</h1>
+	</div>
 
-	
-	{# partial example #}
-	{% include "partials/_header.html" %}
-
-	{# mixin example #}
-	{{mixins.icon('facebook')}}
-
-
-	{# data usage example #}
-		{% import "data/data.html" as tests %}
-		
-		{% for test in tests.list %}
-		<li>{{test.title}}</li>
-		{% endfor %}
-	{# end of example #}
+	<div class="two">
+		<h1>twowowowowowowoowo</h1>
+	</div>
 
 {% endblock %}
